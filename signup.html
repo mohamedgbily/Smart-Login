@@ -1,0 +1,46 @@
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart-login</title>
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media-query.css">
+</head>
+<body>
+
+  
+  <span class="d-none logout " id="username" ></span>
+<section class="main text-center">
+  <div class="subscribe-box  pt-3 pb-2 text-white login">
+    <h1>Smart Login System</h1>
+    <div class="login-input ">
+      <input type="email" class="form-control val-mail" placeholder="Enter Your Email">
+      <input type="password" class="form-control val-password" placeholder="Enter your password">
+      <p class="notvalid-message d-none text-danger">incorrect email or password</p>
+      <p class="req-message text-danger d-none">All inputs is required</p>
+      <a  class="ancor-home"> <button class="btn btn-outline-info form-control my-2  val-btn">Login</button></a>
+      <p class="my-3 ">Don’t have an account?<a  class="signup "> Sign Up</a></p>
+    </div>
+  </div>
+  <div class="subscribe-box  pt-5 pb-3 text-white d-none register">
+    <h1>Smart Login System</h1>
+    <div class="login-input ">
+      <input type="text" class="form-control userName" placeholder="Enter Your Name">
+      <input  type="email" class="form-control userEmail" placeholder="Enter Your Email">
+      <input type="password" class="form-control userPass" placeholder="Enter  Password">
+      <p class="successRegistration text-success d-none">Success</p>
+      <p class="faildRegistration text-danger d-none ">email already exists</p>
+      <p class=" emptyIputs d-none">set Name Must be from 3 to 9 charset & Password must be from 3 to 7 Number</p>
+      <button class="btn btn-outline-info form-control my-2 signupBtn">Sign Up</button>
+      <p class="my-3">Don’t have an account?<a  class="signin"> Sign in</a></p>
+    </div>
+  </div>
+
+</section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
